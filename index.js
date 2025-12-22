@@ -1,4 +1,4 @@
-class TicTacToe {
+xclass TicTacToe {
     constructor() {
         this.board = Array(9).fill('');
         this.currentPlayer = 'X';
@@ -272,7 +272,7 @@ class TicTacToe {
         this.currentPlayer = this.currentPlayer === 'X' ? 'O' : 'X';
         
         if (this.currentPlayer === 'X') {
-            this.updateStatus('Your turn! (BLITZ - 3s)');
+            this.updateStatus('Your turn! (3s)');
             this.startMoveTimer(); // Start timer for human player
         } else {
             this.updateStatus("Computer's turn...");
