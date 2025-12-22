@@ -1491,7 +1491,7 @@ class TicTacToe {
             // Trigger "anyway" animation followed by birthday celebration
             this.showAnywayAnimation(() => {
                 this.loseDrawCount = 0; // Reset counter
-                this.showBirthdayCelebration('HeHe 😏...', 'Happy Birthday Mish! 🎂 hahaha....🥴');
+                this.showBirthdayCelebration('HeHe 😏...', 'Happy Birthday Mish! 🎂');
             });
         } else {
             // Show normal end game overlay
